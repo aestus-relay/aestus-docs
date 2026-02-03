@@ -61,8 +61,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo-black-text.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -103,8 +102,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Telegram',
+                label: 'Twitter',
+                href: 'https://x.com/AestusRelay',
+              },
+              {
+                label: 'Telegram (TBD)',
                 href: 'https://t.me/aestus_relay',
+              },
+              {
+                label: 'Email',
+                href: 'mailto:contact@aestus.live',
               },
             ],
           },
