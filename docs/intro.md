@@ -1,47 +1,28 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Aestus Relay Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the reference documentation for the Aestus MEV-Boost relay. This
+site focuses on protocol behavior, operational details, and relay-specific
+quirks that integrators should know.
 
-## Getting Started
+## Start Here
 
-Get started by **creating a new site**.
+- [Rate limits](./api/rate-limits)
+- [WebSocket endpoints](./api/websockets)
+- [Collateral details](./operations/collateral)
+- [Hydrations support](./features/hydrations)
+- [Timing games](./operations/timing-games)
+- [Support channels](./support/telegram)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Scope
 
-### What you'll need
+This documentation covers:
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Relay API endpoints and request limits
+- WebSocket addresses and subscription topics
+- Collateral addresses and operational requirements
+- Special relay features and known quirks
