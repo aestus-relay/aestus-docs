@@ -48,7 +48,6 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/aestus-relay/aestus-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -71,14 +70,10 @@ const config = {
           alt: 'Aestus Logo',
           src: 'img/logo-black-text.png',
           srcDark: 'img/logo-white-text.png',
+          href: 'https://aestus.live',
+          target: '_self',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs',
-          },
           {
             href: 'https://github.com/aestus-relay/aestus-docs',
             label: 'GitHub',
@@ -90,11 +85,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
-                label: 'Quick Start',
-                to: '/',
+                label: 'Aestus Home',
+                href: 'https://aestus.live',
+              },
+              {
+                label: 'Mainnet Relay',
+                href: 'https://mainnet.aestus.live',
+              },
+              {
+                label: 'Hoodi Relay',
+                href: 'https://hoodi.aestus.live',
               },
             ],
           },
@@ -119,8 +122,16 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/aestus-relay/aestus-docs',
+                label: 'Aestus GitHub',
+                href: 'https://github.com/aestus-relay',
+              },
+              {
+                label: 'Ethereum Builder Specs',
+                href: 'https://ethereum.github.io/builder-specs/',
+              },
+              {
+                label: 'Flashbots Relay Specs',
+                href: 'https://flashbots.github.io/relay-specs/',
               },
             ],
           },
