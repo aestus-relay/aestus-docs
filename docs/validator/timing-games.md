@@ -16,15 +16,16 @@ This parameter is measured in milliseconds since the start of the proposal slot.
 
 This is a *URL query parameter*. `mev-boost` clients may customize this in thir config by modifying the relay URL, e.g.:
 
-> https://0xa15b52576bcbf1072f4a011c0f99f9fb6c66f3e1ff321f11f461d15e31b1cb359caa092c71bbded0bae5b5ea401aab7e@aestus.live?headerDelay=500
+```https://0xa15b52576bcbf1072f4a011c0f99f9fb6c66f3e1ff321f11f461d15e31b1cb359caa092c71bbded0bae5b5ea401aab7e@aestus.live?headerDelay=500```
 
 For `commit-boost` clients:
 
-> [[relays]]
-> url = "https://0xa15b52576bcbf1072f4a011c0f99f9fb6c66f3e1ff321f11f461d15e31b1cb359caa092c71bbded0bae5b5ea401aab7e@aestus.live"
-> 
-> [relays.get_params]
-> headerDelay = "500"
+```[[relays]]
+url = "https://0xa15b52576bcbf1072f4a011c0f99f9fb6c66f3e1ff321f11f461d15e31b1cb359caa092c71bbded0bae5b5ea401aab7e@aestus.live"
+
+[relays.get_params]
+headerDelay = "500"
+```
 
 ### `X-Timeout-Ms` Header
 

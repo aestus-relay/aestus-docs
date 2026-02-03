@@ -6,7 +6,7 @@ title: Optimistic Submissions
 
 The Aestus relay currently accepts optimistic v1 submissions: full block submissions, postponed validation.
 
-Optimistic v2 (separate header submission endpoint followed by full block) and v3 (relay pulls block from builder as needed) are unsupported. See [dehydrated submission](./dehydrated) for an alternative.
+Optimistic v2 (separate header submission endpoint followed by full block) and v3 (relay pulls block from builder as needed) are unsupported. See [dehydrated submission block deltas](./blockdeltas) for an alternative.
 
 ## Collateral
 
