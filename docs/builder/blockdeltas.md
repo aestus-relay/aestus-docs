@@ -8,4 +8,4 @@ The Aestus relay supports block delta submissions via *dehydrated blocks* compat
 
 This is a new feature for Aestus. 
  - On `hoodi` no API key is required. 
- - On `mainnet` an API key is currently required. Please get in touch. We aim to support this permissionless in the near future. 
+ - On `mainnet` an API key is currently required. Please get in touch. We aim to enable this permissionlessly in the near future. 
