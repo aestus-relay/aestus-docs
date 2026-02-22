@@ -1,5 +1,6 @@
 ---
 title: Rate Limits
+sidebar_position: 2
 ---
 
 # Rate Limits
@@ -8,7 +9,7 @@ The Aestus relay enforces rate limits on endpoints with a history of heavy activ
 
 ## getHeader Endpoint
 
-The `/eth/v1/builder/header/{slot}/{parent_hash}/{pubkey}` endpoint is currently being rate limited. Our approach to this is evolving, you can inspect response headers to understand current limits. 
+The `/eth/v1/builder/header/{slot}/{parent_hash}/{pubkey}` endpoint is currently being rate limited. Our approach to this is evolving: you can inspect response headers to understand current limits. 
 
 This should allow for heavy bursts during e.g. a validator's proposal window, while constraining heavy sustained monitoring.
 

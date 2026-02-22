@@ -1,5 +1,6 @@
 ---
 title: WebSockets
+sidebar_position: 3
 ---
 
 # Top Bid WebSocket Stream
@@ -10,5 +11,14 @@ Top bids are SSZ encoded and compatible with the [Titan Relay specs](https://doc
 
 ## Addresses
 
-- Mainnet: `wss://mainnet.aestus.live/relay/v1/builder/top_bid`
-- Hoodi: `wss://hoodi.aestus.live/relay/v1/builder/top_bid`
+### Mainnet
+
+- Global (geo-steered): `wss://mainnet.aestus.live/relay/v1/builder/top_bid`
+- Europe: `wss://eu.aestus.live/relay/v1/builder/top_bid`
+- North America: `wss://na.aestus.live/relay/v1/builder/top_bid`
+
+### Hoodi
+
+- Global (geo-steered): `wss://hoodi.aestus.live/relay/v1/builder/top_bid`
+- Europe: `wss://eu.hoodi.aestus.live/relay/v1/builder/top_bid`
+- North America: `wss://na.hoodi.aestus.live/relay/v1/builder/top_bid`

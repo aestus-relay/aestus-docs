@@ -8,4 +8,4 @@ Please feel free to reach out for questions or support:
 
 - Email: contact@aestus.live
 - Twitter: [@AestusRelay](https://x.com/AestusRelay)
-- Telegram: TBD
+- Telegram: [AestusRelay](https://t.me/AestusRelay)
