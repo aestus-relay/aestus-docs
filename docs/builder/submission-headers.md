@@ -22,7 +22,7 @@ Standard HTTP headers control payload format:
 |--------|--------|-------------|
 | `x-api-key` | API key string | Authenticate with a registered API key. Skips BLS signature verification for known builders, reducing processing latency. |
 | `x-submission-type` | `default`, `dehydrated` | Specifies the submission type. `dehydrated` enables [block delta](./blockdeltas) submissions. |
-| `x-sequence` | Integer | Sequence number for [block delta](./blockdeltas) submissions. The relay uses this to apply deltas to a base block. |
+| `x-sequence` | Integer | Sequence number for all submissions. Used to reject stale submissions and for cancellations. |
 | `x-hydrate` | Any value | When present, instructs the relay to return the hydrated (full) block in the response after applying deltas. Useful for debugging dehydrated submissions. |
 
 ## API Keys
