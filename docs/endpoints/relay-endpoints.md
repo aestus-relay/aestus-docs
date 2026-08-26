@@ -56,7 +56,7 @@ Top bid WebSocket streams are available per-region and with geo-steering:
 
 | Network | Endpoint |
 |---------|----------|
-| Mainnet | `wss://mainnet.aestus.live/relay/v1/builder/top_bid` |
-| Hoodi | `wss://hoodi.aestus.live/relay/v1/builder/top_bid` |
+| Mainnet | `wss://mainnet.aestus.live/relay/v2/builder/top_bid` |
+| Hoodi | `wss://hoodi.aestus.live/relay/v2/builder/top_bid` |
 
 See [WebSockets](./websockets) for details on the stream format.
