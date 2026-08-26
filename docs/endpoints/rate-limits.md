@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Rate Limits
 
-The Aestus relay enforces rate limits on endpoints with a history of heavy activity. Please get in touch with any questions or feedback.
+The Aestus relay enforces reasonable rate limits on endpoints with a history of heavy activity. Please get in touch with any questions or feedback.
 
 ## getHeader Endpoint
 

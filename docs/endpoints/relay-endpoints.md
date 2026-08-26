@@ -20,6 +20,11 @@ The Aestus relay runs multi-region deployments for both `mainnet` and `hoodi`. T
 https://0xa15b52576bcbf1072f4a011c0f99f9fb6c66f3e1ff321f11f461d15e31b1cb359caa092c71bbded0bae5b5ea401aab7e@aestus.live
 ```
 
+**Filtering (OFAC) URL:**
+```
+https://0xa15b52576bcbf1072f4a011c0f99f9fb6c66f3e1ff321f11f461d15e31b1cb359caa092c71bbded0bae5b5ea401aab7e@filter.aestus.live
+```
+
 ### Geo-steering
 
 `aestus.live` uses DNS-based geo-steering to route traffic to the nearest region:
