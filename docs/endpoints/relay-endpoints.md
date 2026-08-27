@@ -43,17 +43,15 @@ We also provide dedicated paths that bypass load balancing. These require an API
 | `https://eu.hoodi.aestus.live` | Europe (OVH London, UK) |
 | `https://na.hoodi.aestus.live` | North America (OVH Beauharnois, Canada) |
 
-**Proposer relay entry:**
+**Relay URL:**
 ```
 https://0x98f0ef62f00780cf8eb06701a7d22725b9437d4768bb19b363e882ae87129945ec206ec2dc16933f31d983f8225772b6@hoodi.aestus.live
 ```
 
-**Filtered relay URL (OFAC / Helix regional):**
+**Filtering (OFAC):**
 ```
 https://0x98f0ef62f00780cf8eb06701a7d22725b9437d4768bb19b363e882ae87129945ec206ec2dc16933f31d983f8225772b6@filter.hoodi.aestus.live
 ```
-
-Use this URL **or** `hoodi.aestus.live`, not both. The filtered URL registers the validator with regional (OFAC) preferences on the same auction. Switching from the unfiltered URL can take up to an hour to take effect.
 
 ## WebSocket Streams
 

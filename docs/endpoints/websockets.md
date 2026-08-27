@@ -9,10 +9,8 @@ The Aestus relay provides an open, public WebSocket endpoint providing access to
 
 Top bids are SSZ encoded and compatible with the [Titan Relay specs](https://docs.titanrelay.xyz/builders/builder-integration#websocket-topbid-stream). Both endpoints deliver a 188-byte payload. v1 will be deprecated in the near future.
 
-**v1**: milliseconds 
-**v2**: nanoseconds
-
-`/ws/v2/top_bid` and `/ws/v2/bids` rewrite to v2. `/` and `/ws/v1/bids` stay on v1.
+- **v1**: milliseconds 
+- **v2**: nanoseconds
 
 ## Addresses
 
